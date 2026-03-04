@@ -1,0 +1,56 @@
+<html>
+<head>
+  <title>Form Pendaftaran Sederhana</title>
+</head>
+<body>
+  <h2>Form Pendaftaran</h2>
+  <form action="from.html" method="post" enctype="multipart/form-data">
+    <table>
+      <tr>
+        <td>Nama:</td>
+        <td><input type="text" name="nama" placeholder="Masukkan nama lengkap" required></td>
+      </tr>
+      <tr>
+        <td>Email:</td>
+        <td><input type="email" name="email" placeholder="Masukkan email" required></td>
+      </tr>
+      <tr>
+        <td>Alamat:</td>
+        <td><textarea name="alamat" rows="4" cols="40" placeholder="Masukkan alamat lengkap"></textarea></td>
+      </tr>
+      <tr>
+        <td>Jenis Kelamin:</td>
+        <td>
+          <label><input type="radio" name="gender" value="male"> Laki-laki</label>
+          <label><input type="radio" name="gender" value="female"> Perempuan</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Hobi:</td>
+        <td>
+          <label><input type="checkbox" name="hobi" value="musik"> Musik</label>
+          <label><input type="checkbox" name="hobi" value="olahraga"> Olahraga</label>
+          <label><input type="checkbox" name="hobi" value="membaca"> Membaca</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Pilihan Kota:</td>
+        <td>
+          <select name="kota">
+            <option value="ciakrang">cikarang</option>
+            <option value="bekasi">Bekasi</option>
+            <option value="karawang">Karawang</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Upload Foto:</td>
+        <td><input type="file" name="foto" accept=".jpg,.png"></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button type="submit">Daftar</button></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
