@@ -3,11 +3,14 @@
     <title>Latihan Nilai</title>
 </head>
 <body>
-    <h2>Form Input Nilai Mahasiswa</h2>
+    <h2>Form Input Nilai Mahasiswa      
+    </h2>
 
     <form method="post" action="">
-        Nama: <input type="text" name="nama"><br>
-        Nilai: <input type="number" name="nilai"><br>
+        Nama: <input type="text" name="nama">
+        <br>
+        Nilai: <input type="number" name="nilai">
+        <br>
         <input type="submit" value="Proses">
     </form>
 
